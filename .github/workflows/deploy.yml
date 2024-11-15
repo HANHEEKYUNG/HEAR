@@ -1,0 +1,65 @@
+name: Deploy to NCP Servers
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-push-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Log in to NCR
+      env:
+        NCR_USERNAME: ${{ secrets.NCR_USERNAME }}
+        NCR_PASSWORD: ${{ secrets.NCR_PASSWORD }}
+      run: |
+        echo $NCR_PASSWORD | docker login -u $NCR_USERNAME --password-stdin hear.kr.ncr.ntruss.com
+
+    - name: Build and Push Docker images to NCR
+      run: |
+        # Frontend
+        docker build -t hear.kr.ncr.ntruss.com/hear-frontend:latest -f ./frontend/Dockerfile ./frontend
+        docker push hear.kr.ncr.ntruss.com/hear-frontend:latest
+        # Backend
+        docker build -t hear.kr.ncr.ntruss.com/hear-backend:latest -f ./backend/Dockerfile ./backend
+        docker push hear.kr.ncr.ntruss.com/hear-backend:latest
+
+    - name: Install SSH client
+      run: sudo apt-get update && sudo apt-get install -y openssh-client
+
+    - name: Add SSH key
+      uses: webfactory/ssh-agent@v0.5.4
+      with:
+        ssh-private-key: ${{ secrets.NCP_SSH_PRIVATE_KEY }}
+
+    - name: Deploy Frontend to WEB Server
+      env:
+        NCP_USERNAME: ${{ secrets.NCP_USERNAME }}
+        NCP_WEB_SERVER_IP: ${{ secrets.NCP_WEB_SERVER_IP }}
+      run: |
+        ssh -o StrictHostKeyChecking=no $NCP_USERNAME@$NCP_WEB_SERVER_IP << 'EOF'
+        cd /home/hear-project/
+        docker-compose -f docker-compose.web.yml down
+        docker-compose -f docker-compose.web.yml pull
+        docker-compose -f docker-compose.web.yml up -d
+        docker image prune -f
+        EOF
+
+    - name: Deploy Backend to WAS Server
+      env:
+        NCP_USERNAME: ${{ secrets.NCP_USERNAME }}
+        NCP_WAS_SERVER_IP: ${{ secrets.NCP_WAS_SERVER_IP }}
+      run: |
+        # 먼저 static 파일 전송
+        scp -o StrictHostKeyChecking=no -r ./backend/app/static/* $NCP_USERNAME@$NCP_WAS_SERVER_IP:/home/hear-project/static/
+
+        # 그 다음 백엔드 배포
+        ssh -o StrictHostKeyChecking=no $NCP_USERNAME@$NCP_WAS_SERVER_IP << 'EOF'
+        cd /home/hear-project/
+        docker-compose -f docker-compose.was.yml down
+        docker-compose -f docker-compose.was.yml pull
+        docker-compose -f docker-compose.was.yml up -d
+        docker image prune -f
+        EOF

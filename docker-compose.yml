@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app  # 로컬 프론트엔드 코드와 컨테이너의 /app 디렉토리 공유
+      - /app/node_modules  # node_modules를 컨테이너 내부에 유지
+    environment:
+      - NODE_ENV=development
+      - WATCHPACK_POLLING=true  # create-react-app >= 5.x 에서 파일 감지
+
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env  # .env 파일을 명시적으로 설정하여 로드
+    volumes:
+      - ./backend:/app  # 로컬 백엔드 코드와 컨테이너의 /app 디렉토리 공유

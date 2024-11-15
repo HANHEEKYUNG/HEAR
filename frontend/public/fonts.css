@@ -1,0 +1,20 @@
+/* public/index.html 또는 별도 CSS 파일에 추가 */
+@font-face {
+    font-family: 'GoormSansRegular';
+    src: url('/fonts/goorm-sans-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'GoormSansBold';
+    src: url('/fonts/goorm-sans-bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'GoormSansMedium';
+    src: url('/fonts/goorm-sans-medium.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Recipekorea';
+    src: url('./fonts/Recipekorea_FONT.otf') format('woff2'), 
+         url('./fonts/Recipekorea_FONT.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
