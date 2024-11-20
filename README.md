@@ -93,7 +93,7 @@
 <br>
 
 ## ⚙ 시스템 아키텍처(구조)  
-<img src="https://github.com/user-attachments/assets/f9cf6cab-6317-40ab-ba0f-6a1e7fc50855" height="600px" width="1200px">
+<img src="https://github.com/user-attachments/assets/f580895c-2ecc-4fb5-a362-99e99625cec0" height="600px" width="1200px">
 <br>
 
 
