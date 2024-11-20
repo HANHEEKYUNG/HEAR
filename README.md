@@ -114,28 +114,29 @@
 <br>
 
 ## 🖥 화면 구성
-### 시작화면
-![1732077310560](https://github.com/user-attachments/assets/8a960817-e94e-4909-bdb3-9a07adb445be)
+### 사용자 화면구성도
+![Screenshot_20241120_141756_Samsung Internet](https://github.com/user-attachments/assets/b02dfc29-9259-4f2d-8029-9339fd4f64d8)
+### 관리자 화면구성도
+![Screenshot_20241120_141820_Samsung Internet](https://github.com/user-attachments/assets/fc4870f2-40c1-4f60-9de8-806fd8010e4d)
 
+### 음성 녹음 화면
+![Screenshot_20241120_140047_Samsung Internet](https://github.com/user-attachments/assets/84eb5c85-22c8-4602-9adc-3d330d87f733)
 
-### 로그인/회원가입/마이페이지/마이페이지수정
-![login](https://github.com/user-attachments/assets/02140d83-629c-4329-9950-fb6d18a779bb)
+### 도서 재생 화면
+![Screenshot_20241120_135815_Samsung Internet](https://github.com/user-attachments/assets/9a1b028e-99e0-4667-8ebc-059232ca0af3)
 
+### 독서기록 화면 (음성 / 글쓰기 선택)
+![Screenshot_20241120_140016_Samsung Internet](https://github.com/user-attachments/assets/cb113736-8170-4486-8dec-4c71757ad745)
 
-### 중고마켓/글쓰기/수정하기
-<img src="https://github.com/user-attachments/assets/6b5d7bf2-729e-40f9-bd6d-9dd0a0a0c40f" height="600px" width="1200px">
-<img src="https://github.com/user-attachments/assets/093589e3-5960-4f03-bced-ca1f10900ff0" height="600px" width="1200px">
-<img src="https://github.com/user-attachments/assets/7ce90792-c652-45ff-8bb3-988d28fcd7bb" height="600px" width="1200px">
+### 관리자화면 메인
+![Screenshot_20241120_142554_Samsung Internet](https://github.com/user-attachments/assets/1ae21a1b-8a14-413c-9598-385e5cecff82)
 
-### 유모차 매입(고객)/유모차매입목록,판매(관리자)
-<img src="https://github.com/user-attachments/assets/e3401d05-f694-40d4-91e9-76ace947c338" height="600px" width="1200px">
+### 공유마당 화면
+![Screenshot_20241120_141000_Samsung Internet](https://github.com/user-attachments/assets/df044023-f6bc-4980-baba-e0266706b463)
 
-### 내쪽지함
-<img src="https://github.com/user-attachments/assets/16d564ae-efde-4615-8107-1ced191e88b5" height="600px" width="1200px">
+### 도서관리 화면
+![Screenshot_20241120_142909_Samsung Internet](https://github.com/user-attachments/assets/5eaf4256-9b8b-4162-b097-1c5ad00a721f)
 
-### 게시판/내용확인
-<img src="https://github.com/user-attachments/assets/04eba25b-5956-4968-a1a4-584399aa505d" height="600px" width="1200px">
-<img src="https://github.com/user-attachments/assets/97931703-7823-4921-bf0f-401d202eddc7" height="600px" width="1200px">
 
 <br>
 
