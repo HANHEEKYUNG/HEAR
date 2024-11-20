@@ -102,8 +102,10 @@
 <br>
 
 ## 📌 서비스 흐름도
+# flow chart - 도서마당
 <img src="https://github.com/user-attachments/assets/0856940f-e335-4664-ae90-2768409b1abb" height="600px" width="1200px">
 <br>
+# flow chart - 설정
 <img src="https://github.com/user-attachments/assets/e5339ee8-d750-4a27-a782-117aa279b64e" height="600px" width="1200px">
 <br>
 
