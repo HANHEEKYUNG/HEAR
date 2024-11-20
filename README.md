@@ -120,7 +120,7 @@
 ![Screenshot_20241120_141820_Samsung Internet](https://github.com/user-attachments/assets/fc4870f2-40c1-4f60-9de8-806fd8010e4d)
 
 ### 음성 녹음 화면
-![Screenshot_20241120_140047_Samsung Internet](https://github.com/user-attachments/assets/84eb5c85-22c8-4602-9adc-3d330d87f733)
+![Screenshot_20241120_140047_Samsung Internet](https://github.com/user-attachments/assets/e25de969-9ad9-4bf4-9e28-f88ace96e682)
 
 ### 도서 재생 화면
 ![Screenshot_20241120_135815_Samsung Internet](https://github.com/user-attachments/assets/9a1b028e-99e0-4667-8ebc-059232ca0af3)
@@ -148,31 +148,54 @@
     <td align="center"><img src="https://github.com/user-attachments/assets/c4b7b6b5-0207-4692-96f7-17040dd05ab7" width="100" height="100"/></td>
     <td align="center"><img src="https://github.com/user-attachments/assets/b1f131da-0e85-4249-9104-51d2355c6f14" width="100" height="100"/></td>  
     <td align="center"><img src="https://github.com/user-attachments/assets/836062fe-0588-4d4b-ad35-dc137a4cb2eb" width="100" height="100"/></td>  
-    <td align="center"><img src="https://github.com/user-attachments/assets/e980f002-1a40-4075-9605-79cecd2d469b" width="100" height="100"/></td>  
   </tr>
   <tr>
-    <td align="center"><strong>지연주</strong></td>
-    <td align="center"><strong>김준서</strong></td>
-    <td align="center"><strong>이지환</strong></td>
     <td align="center"><strong>이혜리</strong></td>
-    <td align="center"><strong>조근하</strong></td>
+    <td align="center"><strong>김관용</strong></td>
+    <td align="center"><strong>임현진</strong></td>
     <td align="center"><strong>한희경</strong></td>
+    <td align="center"><strong>류형욱</strong></td>
   </tr>
   <tr>
-    <td align="center"><b>PM, Backend</b></td>
-    <td align="center"><b>DataBase, Backend, Frontend</b></td>
-    <td align="center"><b>Frontend</b></td>
-    <td align="center"><b>Frontend, 크롤링</b></td>
-    <td align="center"><b>Frontend</b></td>
-    <td align="center"><b>Backend</b></td>
+    <td align="center"><b>Data modeling, Backend</b></td>
+    <td align="center"><b>QA, frontend</b></td>
+    <td align="center"><b>PM</b></td>
+    <td align="center"><b>Backend, Frontend</b></td>
+    <td align="center"><b>Publisher,Database</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/YeonjuJi" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/dooooosi" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/hotgimozziman" target='_blank'>github</a></td>
     <td align="center"><a href="https://github.com/nakirzero" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/ajdajddl2" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/kykimsjs" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/jtothemoon" target='_blank'>github</a></td>
     <td align="center"><a href="https://github.com/HANHEEKYUNG" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/wuk-acca" target='_blank'>github</a></td>
+  </tr>
+  <tr>
+    <td align="center">딥러닝 / 머신러닝 담당<br>
+데이터 수집 및 전처리<br>
+공유마당 업로드, 이력관리<br>
+관리자페이지 구축<br>
+관리자페이지 알림 구축</td>
+    <td align="center">QA품질관리<br>
+시스템 테스트<br>
+데이터 수집</td>
+    <td align="center">일정 및 문서 관리<br>
+Docker, NCR 환경 구성<br>
+NCP 서버 및 DB 구축<br>
+Github Actions CI/CD</td>
+    <td align="center">메인 도서 페이지 구축<br>
+도서 관리 페이지 구축<br>
+건의사항 확인,수정,삭제<br>
+회원정보 수정<br>
+화면설계서</td>   
+     <td align="center">총괄 디자인 설계 및 구현 <br>
+DB 설계 및 관리 <br>
+아이디어 기획 및 기획서 작성 <br>
+시연영상 제작<br>
+ Elevenlabs API 연결,호출 <br>
+Chat GPT AI 요약 구현 <br>
+JWT 회원가입, 로그인<br>
+
   </tr>
 </table>
 
@@ -180,4 +203,4 @@
 
 ## 🤾‍♂️ 트러블슈팅  
 * 문제 <br>
- ![디코딩](https://github.com/user-attachments/assets/900b61d8-86ea-4f01-bc1a-4ad910ee6cbf)
+
