@@ -98,7 +98,7 @@
 
 
 ## 📌 SW유스케이스
-<img src="https://github.com/user-attachments/assets/40360af4-5bf4-49c7-8e72-bf42a467e274" height="600px" width="1200px">
+<img src="https://github.com/user-attachments/assets/a1e683b5-22ac-4a6a-83fa-e529901be4d9" height="600px" width="1200px">
 <br>
 
 ## 📌 서비스 흐름도
