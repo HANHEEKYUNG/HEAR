@@ -115,7 +115,7 @@
 
 ## 🖥 화면 구성
 ### 시작화면
-<img src="https://github.com/user-attachments/files/17824826/hear_.pdf" height="600px" width="1200px">
+![1732077310560](https://github.com/user-attachments/assets/8a960817-e94e-4909-bdb3-9a07adb445be)
 
 
 ### 로그인/회원가입/마이페이지/마이페이지수정
