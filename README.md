@@ -57,7 +57,7 @@
         <td>
        
             <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white"/>
-            <img src="https://colab.research.google.com/assets/colab-badge.svg"/>
+            <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"/>
            
         </td>
     </tr>
