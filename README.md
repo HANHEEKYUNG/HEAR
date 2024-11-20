@@ -187,7 +187,8 @@ Github Actions CI/CD</td>
 도서 관리 페이지 구축<br>
 건의사항 확인,수정,삭제<br>
 회원정보 수정<br>
-화면설계서</td>   
+화면설계서</td>  
+      발표
      <td align="center">총괄 디자인 설계 및 구현 <br>
 DB 설계 및 관리 <br>
 아이디어 기획 및 기획서 작성 <br>
