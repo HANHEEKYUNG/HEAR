@@ -172,36 +172,39 @@
   </tr>
   <tr>
     <td align="center">딥러닝 / 머신러닝 담당<br>
-데이터 수집 및 전처리<br>
-공유마당 업로드, 이력관리<br>
-관리자페이지 구축<br>
-관리자페이지 알림 구축</td>
+                        데이터 수집 및 전처리<br>
+                        공유마당 업로드, 이력관리<br>
+                        관리자페이지 구축<br>
+                        관리자페이지 알림 구축
+    </td>
     <td align="center">QA품질관리<br>
-시스템 테스트<br>
-데이터 수집</td>
+                        시스템 테스트<br>
+                        데이터 수집
+    </td>
     <td align="center">일정 및 문서 관리<br>
-Docker, NCR 환경 구성<br>
-NCP 서버 및 DB 구축<br>
-Github Actions CI/CD</td>
+                        Docker, NCR 환경 구성<br>
+                        NCP 서버 및 DB 구축<br>
+                        Github Actions CI/CD
+    </td>
     <td align="center">메인 도서 페이지 구축<br>
-도서 관리 페이지 구축<br>
-건의사항 확인,수정,삭제<br>
-회원정보 수정<br>
-화면설계서</td>  
-      발표
+                        도서 관리 페이지 구축<br>
+                        건의사항 확인,수정,삭제<br>
+                        회원정보 수정<br>
+                        화면설계서<br>
+                        발표
+    </td>        
      <td align="center">총괄 디자인 설계 및 구현 <br>
-DB 설계 및 관리 <br>
-아이디어 기획 및 기획서 작성 <br>
-시연영상 제작<br>
- Elevenlabs API 연결,호출 <br>
-Chat GPT AI 요약 구현 <br>
-JWT 회원가입, 로그인<br>
+                        DB 설계 및 관리 <br>
+                        아이디어 기획 및 기획서 작성 <br>
+                        시연영상 제작<br>
+                        Elevenlabs API 연결,호출 <br>
+                        Chat GPT AI 요약 구현 <br>
+                        JWT 회원가입, 로그인<br>
 
-  </tr>
+    </tr>
 </table>
 
-<br>
 
-## 🤾‍♂️ 트러블슈팅  
-* 문제 <br>
+
+
 
