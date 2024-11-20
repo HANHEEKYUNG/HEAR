@@ -1,5 +1,5 @@
 # 📎 H-ear(팀명: 위아히어(We Are Hear)
-<p align="center"><img src="https://github.com/user-attachments/assets/fbb112c2-97fa-49e5-b851-4e321d3e6530" height="20%" width="30%"></p>
+![image](https://github.com/user-attachments/assets/fbb112c2-97fa-49e5-b851-4e321d3e6530)
 
 
 
